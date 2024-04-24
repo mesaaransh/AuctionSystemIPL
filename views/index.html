@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        const csrfToken = "{{ csrf_token }}";        
+    </script>
+</head>
+
+<body>
+    <div class="container">
+
+        <% for( let i = 0; i < q.length; i++ ) { %>
+
+            <div class="question-card text-center p-4 mb-4">
+                <p class="question-text"><%= q[i].text %></p>
+                <input
+                    name=<%= i %>
+                    class="answer-input border border-gray-300 rounded-md px-3 py-2 w-full mt-2"
+                    placeholder="Type your answer here...">
+            </div>
+        
+        <% } %>
+
+    </div>
+    <div class="quiz-container">
+        <div id="options"></div>
+        <button id="submit-btn" style="display: none;">Submit</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: race;
+    src: url("./racing.otf");
+}
+
+.leaderboard{
+    width: 100%;
+    background-image: url("./bg.png");
+    background-size: cover;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.board{
+    width: calc(100% - 400px);
+    margin-top: 30px;
+    height: 400px;
+    /* background-color: brown; */
+}
+
+.board > .team:nth-of-type(1){
+    background-color: #00dbac;
+    border: 3px solid #00ff55;
+}
+
+.board > .team:not(:nth-of-type(1)){
+    margin-top: 20px;
+}
+
+.team{
+    background-color: #006E90;
+    height: 40px;
+    width: 100%;
+
+    border: 3px solid #00c3ff;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    transform: skew(-20deg);
+}
+
+.team > h5{
+    font-size: 22px;
+    font-family: race;
+
+    text-align: center;
+}
+
+.team > h5:nth-of-type(1){
+    width: 20%;
+}
+
+
+.team > h5:nth-of-type(2){
+    width: 50%;
+}
+
+
+.team > h5:nth-of-type(3){
+    width: 30%;
+}
+
+h1{
+    font-size: 52px;
+    font-family: race;
+}

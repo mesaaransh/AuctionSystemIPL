@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auction Alloter</title>
+    <link rel="stylesheet" href="/alloter.css">
+</head>
+<body>
+
+    <div class="alloter">
+
+        <div class="playerDetails">
+            <div class="groupName">Group <%= number %></div>
+
+            <% for( let i = 0; i < data.length; i++ ) { %>
+
+                <div class="groupMember" style="background-color: rgba(23, 0, 53, 0.3); font-weight: bold">
+                    <div class="groupMemberName"> <%= data[i].name %> </div>
+                    <div class="groupMemberRole"> <%= data[i].role %> </div>
+                    <div class="groupMemberStat"> <%= data[i].battingRating %></div>
+                    <div class="groupMemberStat"> <%= data[i].feildingRating %></div>
+                    <div class="groupMemberStat"> <%= data[i].bowlingRating %></div>
+                </div>
+            
+            <% } %>
+
+            <form method="POST" action=<%= "/groupallot/" + number %> >
+                <div class="groupMember">
+                    <input style="display: none;" value=<%= groupId %> type="text" name="group">
+                    <input class="groupMemberInput" placeholder="Team Number" type="number" name="team">
+                    <input class="groupMemberInput" placeholder="Sell Price" type="number" name="price">
+                </div>
+                <button class="button groupMember">Auction!</button>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>

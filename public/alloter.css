@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: race;
+    src: url("./racing.otf");
+}
+
+.alloter{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./bg.png");
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playerDetails{
+    width: 1000px;
+    border: 5px solid rgb(23, 0, 53);
+
+    transform: skew(-10deg);
+}
+
+.groupName{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: race;
+    font-size: 42px;
+    color: rgb(34, 0, 48);
+    border-bottom: 5px solid rgb(23, 0, 53);
+}
+
+
+.groupMember{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    /* background-color: rgba(23, 0, 53, 0.5); */
+}
+
+form > button{
+    font-size: 22px;
+    border: 0px solid;
+    background-color: rgb(23, 0, 53);
+    color: white;
+
+    font-size: 32px;
+}
+
+.groupMember:not(:nth-last-of-type(1)){
+    border-bottom: 5px solid rgb(23, 0, 53);
+}
+
+.groupMemberName{
+
+    font-size: 22px;
+    font-family: sans-serif;
+    height: inherit;
+
+    width: 30%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.groupMemberRole{
+
+    font-size: 22px;
+    font-family: sans-serif;
+    height: inherit;
+
+    width: 30%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.groupMemberStat{
+
+    font-size: 22px;
+    width: calc(40%/3);
+    font-family: sans-serif;
+    height: inherit;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.groupMember > .groupMemberStat:nth-of-type(3){
+    font-size: 28px;
+    background-color: aqua;
+    font-family: race;
+}
+
+.groupMember > .groupMemberStat:nth-of-type(4){
+    font-size: 28px;
+    background-color: red;
+    font-family: race;
+}
+
+.groupMember > .groupMemberStat:nth-of-type(5){
+    font-size: 28px;
+    background-color: green;
+    font-family: race;
+}
+
+.groupMemberInput{
+    height: 100%;
+    width: calc(100%/2);
+    border: 0px solid;
+    background-color: rgba(23, 0, 53, 0.7);
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 28px;
+    color: black;
+}
+
+input::placeholder{
+    color: black;
+}
+
+button{
+    cursor: pointer;
+    transition-duration: 200ms;
+}

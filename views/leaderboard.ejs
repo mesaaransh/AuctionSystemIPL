@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="/leaderboard.css">
+</head>
+<body>
+
+    <div class="leaderboard">
+        <h1>Leaderboard</h1>
+
+        <div class="board">
+
+            <div class="team">
+                <h5>pos</h5>
+                <h5>name</h5>
+                <h5>score</h5>
+            </div>
+
+            <% for( let i = 0; i < data.length; i++ ) { %>
+                
+                <div class="team">
+                    <h5> <%= i+1 %> </h5>
+                    <h5> <%= data[i].name %> </h5>
+                    <h5> <%= data[i].points %> </h5>
+                </div>
+
+            <% } %>
+
+            
+
+        </div>
+    </div>
+    
+</body>
+</html>
