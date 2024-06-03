@@ -7,51 +7,39 @@
 This web app brings the excitement of the IPL auction to your college. Build your dream team through strategic bidding and budget management, all within a user-friendly online platform.
 
 Key Features:
-*Grouped Players: Focus on team composition by bidding on pre-defined player groups consisting of a batsman, bowler, and wicket-keeper/all-rounder. This ensures a well-balanced team and adds a layer of strategy to the auction process.
-*Skill-Based Budget Allocation: Take a quick test to determine your team's starting budget. This test assesses your cricket knowledge and rewards strategic thinking, making the auction even more engaging.
-*Real-Time Budget Tracking: Every bid placed is automatically deducted from your team's remaining budget, keeping you constantly aware of your spending power and adding a realistic element to the auction experience.
-*Dynamic Leaderboard: Stay on top of the competition with a continuously updated leaderboard. Track your team's remaining budget and compare it to others to strategize your next move and emerge victorious.
+* Grouped Players: Focus on team composition by bidding on pre-defined player groups consisting of a batsman, bowler, and wicket-keeper/all-rounder. This ensures a well-balanced team and adds a layer of strategy to the auction process.
+* Skill-Based Budget Allocation: Take a quick test to determine your team's starting budget. This test assesses your cricket knowledge and rewards strategic thinking, making the auction even more engaging.
+* Real-Time Budget Tracking: Every bid placed is automatically deducted from your team's remaining budget, keeping you constantly aware of your spending power and adding a realistic element to the auction experience.
+* Dynamic Leaderboard: Stay on top of the competition with a continuously updated leaderboard. Track your team's remaining budget and compare it to others to strategize your next move and emerge victorious.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
-* [![React][React.js]][React-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+* [NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+* [Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+* [React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+* [Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Step into the shoes of an IPL team owner with these easy-to-follow steps:
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+1. Team Up: gather your friends and form a team to strategize the auction together, manually upload the CSV file in database.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+2. Test Your Cricket Knowledge: Take the budget allocation test designed to assess your cricketing expertise. This test will determine your team's starting budget for the auction.
 
+3. Bidding Frenzy: The auction begins! Browse through the player groups (batsman, bowler, wicket-keeper/all-rounder) and place your bids strategically. Remember, every bid you place is automatically deducted from your remaining budget, so choose wisely!
 
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+4. Track Your Progress: Keep an eye on the dynamic leaderboard that constantly updates team standings based on their remaining budget or other criteria defined in your app (e.g., total player value acquired). Use this information to adjust your bidding strategy and stay ahead of the competition.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
@@ -64,74 +52,9 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Saaransh Gupta - [@mesaaransh]([https://www.instagram.com/mesaaransh?igsh=MXRqYmV4eThhOGs2YQ==]) - mesaaransh@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
